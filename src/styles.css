@@ -1,0 +1,65 @@
+/* Set the background image and center it */
+body {
+    background-image: url('./assests/background.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: 'Arial', sans-serif; /* Use a clean and modern font */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Container for the main content */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Maximum width for the box */
+    text-align: center; /* Center text alignment */
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5rem; /* Large font size */
+    margin: 0; /* Remove default margin */
+    color: #FF6347; /* Tomato color for the heading */
+}
+
+/* Input field style */
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin-top: 10px; /* Space above the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for the input */
+}
+
+/* Button style */
+button {
+    background-color: #FF6347; /* Tomato color for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for the button */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #FF4500; /* Darker tomato color on hover */
+}
+
+/* Output response style */
+.response {
+    margin-top: 20px; /* Space above the response */
+    font-size: 1.2rem; /* Larger font size for responses */
+    color: #333; /* Dark text color for visibility */
+}
